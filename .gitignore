@@ -12,3 +12,5 @@
 
 # virtualenv
 venv
+
+.pytest_cache/*
