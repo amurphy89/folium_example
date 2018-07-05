@@ -1,0 +1,1 @@
+from .folium_map import create_map

@@ -1,0 +1,4 @@
+#!/usr/bin/env python
+
+import folium_map
+folium_map.create_map()
