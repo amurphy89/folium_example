@@ -1,1 +1,1 @@
-from .folium_map import create_map
+from .folium_map import create_map, url_producer

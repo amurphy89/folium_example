@@ -10,7 +10,9 @@ lon = list(data['LON'])
 elev = list(data['ELEV'])
 
 def url_producer(elev):
-	if elev < 1000:
+	if elev <= 0:
+		raise ValueError('Volcanoe cannot be smaller than 1 metre!')
+	elif elev < 1000:
 		return 'icons/vol1.png'
 	elif 1000 <= elev <= 3000:
 		return 'icons/vol2.png'
